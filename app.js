@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-    res.send("Hello from Node.js Docker Container 🚀");
+    res.send("Hello from Node.js Docker users 🚀");
 });
 
 const port = 3000;
